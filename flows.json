@@ -1,0 +1,252 @@
+[
+    {
+        "id": "014568958b7aad84",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "33ac2224aab1b9fc",
+        "type": "mqtt in",
+        "z": "014568958b7aad84",
+        "name": "",
+        "topic": "BEFESP32/out_01",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "59a90cbd0ab57ec9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 570,
+        "y": 160,
+        "wires": [
+            [
+                "ccb4ca7aa80a09d0"
+            ]
+        ],
+        "icon": "node-red/feed.svg"
+    },
+    {
+        "id": "e9d67356457e9fb0",
+        "type": "mqtt in",
+        "z": "014568958b7aad84",
+        "name": "",
+        "topic": "BEFESP32/out_02",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "59a90cbd0ab57ec9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 570,
+        "y": 220,
+        "wires": [
+            [
+                "ccb4ca7aa80a09d0"
+            ]
+        ],
+        "icon": "node-red/feed.svg"
+    },
+    {
+        "id": "b70e94cb5015cc5d",
+        "type": "mqtt in",
+        "z": "014568958b7aad84",
+        "name": "",
+        "topic": "BEFESP32/out_0",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "59a90cbd0ab57ec9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 560,
+        "y": 560,
+        "wires": [
+            [
+                "ccb4ca7aa80a09d0"
+            ]
+        ],
+        "icon": "node-red/feed.svg"
+    },
+    {
+        "id": "d84a77971938dca5",
+        "type": "mqtt in",
+        "z": "014568958b7aad84",
+        "name": "",
+        "topic": "BEFESP32/out_1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "59a90cbd0ab57ec9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 560,
+        "y": 620,
+        "wires": [
+            [
+                "ccb4ca7aa80a09d0"
+            ]
+        ],
+        "icon": "node-red/feed.svg"
+    },
+    {
+        "id": "b72545a82c26af33",
+        "type": "mqtt in",
+        "z": "014568958b7aad84",
+        "name": "",
+        "topic": "BEFESP32/out_2",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "59a90cbd0ab57ec9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 560,
+        "y": 680,
+        "wires": [
+            [
+                "ccb4ca7aa80a09d0"
+            ]
+        ],
+        "icon": "node-red/feed.svg"
+    },
+    {
+        "id": "c8a011f2665fc1e7",
+        "type": "mqtt in",
+        "z": "014568958b7aad84",
+        "name": "",
+        "topic": "BEFESP32/out_10",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "59a90cbd0ab57ec9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 570,
+        "y": 340,
+        "wires": [
+            [
+                "ccb4ca7aa80a09d0"
+            ]
+        ],
+        "icon": "node-red/feed.svg"
+    },
+    {
+        "id": "73a1561a1898e849",
+        "type": "mqtt in",
+        "z": "014568958b7aad84",
+        "name": "",
+        "topic": "BEFESP32/out_20",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "59a90cbd0ab57ec9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 570,
+        "y": 400,
+        "wires": [
+            [
+                "ccb4ca7aa80a09d0"
+            ]
+        ],
+        "icon": "node-red/feed.svg"
+    },
+    {
+        "id": "b22e316f8e1e9e15",
+        "type": "mqtt in",
+        "z": "014568958b7aad84",
+        "name": "",
+        "topic": "BEFESP32/out_21",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "59a90cbd0ab57ec9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 570,
+        "y": 460,
+        "wires": [
+            [
+                "ccb4ca7aa80a09d0"
+            ]
+        ],
+        "icon": "node-red/feed.svg"
+    },
+    {
+        "id": "d680072a7251149c",
+        "type": "mqtt in",
+        "z": "014568958b7aad84",
+        "name": "",
+        "topic": "BEFESP32/out_12",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "59a90cbd0ab57ec9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 570,
+        "y": 280,
+        "wires": [
+            [
+                "ccb4ca7aa80a09d0"
+            ]
+        ],
+        "icon": "node-red/feed.svg"
+    },
+    {
+        "id": "ccb4ca7aa80a09d0",
+        "type": "debug",
+        "z": "014568958b7aad84",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 620,
+        "wires": [],
+        "icon": "node-red/leveldb.png"
+    },
+    {
+        "id": "59a90cbd0ab57ec9",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    }
+]
